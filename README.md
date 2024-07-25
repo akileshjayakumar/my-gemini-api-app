@@ -55,8 +55,27 @@ Integrate Google Gemini API using Flask.
     └── index.html
 ```
 
+## Contributing
+
+Your contributions are welcome! If you have ideas for improvements or new features:
+
+1. **Fork the Repository**
+2. **Create a Branch:**
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Commit Changes:**
+   ```bash
+   git commit -am 'Add new feature: description'
+   ```
+4. **Push to Branch:**
+   ```bash
+   git push origin feature-branch
+   ```
+5. **Submit a Pull Request**
+
 ## Contact
 
-- **Email**: jayakuma006@mymail.sim.edu.sg
-- **LinkedIn**: [Akilesh Jayakumar](https://www.linkedin.com/in/akileshjayakumar/)
-- **GitHub**: [Akilesh Jayakumar](https://github.com/akileshjayakumar)
+- **Email:** [jayakuma006@mymail.sim.edu.sg](mailto:jayakuma006@mymail.sim.edu.sg)
+- **LinkedIn:** [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
+- **GitHub:** [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
