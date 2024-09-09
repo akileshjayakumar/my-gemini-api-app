@@ -1,14 +1,14 @@
 # Google Gemini API Integration
 
-Integrate Google Gemini API using Flask.
+This repo is for me to explore and experiement with Google Gemini API.
 
-## Prerequisites
+## Tech Stack
 
-- Python 3.x
-- Flask
-- `dotenv`
-- `langchain-core`
-- `langchain-google-genai`
+1. **[Python3](https://www.python.org/downloads/)** – The programming language used for backend development
+2. **[Flask](https://flask.palletsprojects.com/en/latest/installation/)** – A lightweight WSGI web application framework
+3. **[python-dotenv](https://pypi.org/project/python-dotenv/)** – Manages environment variables in Python applications via `.env` files
+4. **[langchain-core](https://python.langchain.com/docs/get_started/installation)** – The core package for building language models with LangChain
+5. **[langchain-google-genai](https://python.langchain.com/docs/integrations/providers/google_genai)** – Enables integration with Google GenAI for advanced language model functionality
 
 ## Setup
 
@@ -27,55 +27,5 @@ Integrate Google Gemini API using Flask.
     ```
 4. **Run the App**
     ```bash
-    python app.py
+    python3 app.py
     ```
-    Access at `http://localhost`.
-
-## API Endpoints
-
-- `GET /`: Main web interface.
-- `POST /api/generate`: Generate a response from Google Gemini.
-  - **Request:**
-    ```json
-    {
-      "contents": "Your input text",
-      "model": "Model name"
-    }
-    ```
-  - **Response:** Streamed generated text.
-- `GET /<path>`: Serve static files from `web` directory.
-
-## Directory Structure
-
-```
-├── app.py
-├── requirements.txt
-├── .env
-└── web
-    └── index.html
-```
-
-## Contributing
-
-Your contributions are welcome! If you have ideas for improvements or new features:
-
-1. **Fork the Repository**
-2. **Create a Branch:**
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. **Commit Changes:**
-   ```bash
-   git commit -am 'Add new feature: description'
-   ```
-4. **Push to Branch:**
-   ```bash
-   git push origin feature-branch
-   ```
-5. **Submit a Pull Request**
-
-## Contact
-
-- **Email:** [jayakuma006@mymail.sim.edu.sg](mailto:jayakuma006@mymail.sim.edu.sg)
-- **LinkedIn:** [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
-- **GitHub:** [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
